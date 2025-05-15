@@ -43,7 +43,7 @@ questions = ["Is 'Hi' the simular sound to 'Annyeong'?", "Is 'Im sorry' the simu
 
 #Q1 Korean
 score = 0
-Q1 = easygui.buttonbox(("Is 'Hi' the simular sound to 'Annyeong'?"), choices = ["Yes", "No"], title = 'Korean words #1 - 안녕')
+Q1 = easygui.buttonbox(questions[0], choices = ["Yes", "No"], title = 'Korean words #1 - 안녕')
 Answer1 = "Yes"
 if Q1 == Answer1:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -51,7 +51,7 @@ if Q1 == Answer1:
 else:
   easygui.msgbox("Wrong!, The answer was 'Yes', Because if you say the 'Annyeong' but sounds like 'Hi there'. Score 0, Let's carry on then.")
 #Q2 Korean
-Q2 = easygui.buttonbox(("Is 'Im sorry' the simular sound to 'Joesonghabnida'?"), choices = ["Yes", "No"], title = 'Korean test #2 - 죄송합니다')
+Q2 = easygui.buttonbox(questions[1], choices = ["Yes", "No"], title = 'Korean test #2 - 죄송합니다')
 Answer2 = "No"
 if Q2 == Answer2:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -59,7 +59,7 @@ if Q2 == Answer2:
 else:
   easygui.msgbox("Wrong!, The answer was 'No',Because if you say Joesonghabnida' it sounds like 'Jason happy da'. Score 0, Let's carry on then.") 
 #Q3 Korean
-Q3 = easygui.buttonbox(("Is 'Bye' the simular sound to 'Annyeong'?"), choices = ["Yes", "No"], title ='Korean test #3 - 안녕')
+Q3 = easygui.buttonbox(questions[2], choices = ["Yes", "No"], title ='Korean test #3 - 안녕')
 Answer3 = "Yes"
 if Q3 == Answer3:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -67,7 +67,7 @@ if Q3 == Answer3:
 else:
   easygui.msgbox("Wrong!, The answer was 'Yes', Because if you say 'Annyeong' it sounds like 'Bye now'. Score 0, Let's carry on then.")
 #Q4 Korean
-Q4 = easygui.buttonbox(("Is 'Welcome' the simular sound to 'Hwan-yeong'?"), choices = ["Yes", "No"], title ='Korean test #4 - 환영')
+Q4 = easygui.buttonbox(questions[3], choices = ["Yes", "No"], title ='Korean test #4 - 환영')
 Answer4 = "Yes"
 if Q4 == Answer4:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -75,7 +75,7 @@ if Q4 == Answer4:
 else:
   easygui.msgbox("Wrong!, The answer was 'Yes', Because if you say 'Hwan-yeong' it sounds like 'Wel come'. Score 0, Let's carry on then.")
 #Q5 Korean
-Q5 = easygui.buttonbox(("Is 'Yes' the simular sound to 'Ye'?"), choices = ["Yes", "No"], title ='Korean test #5 - 예')
+Q5 = easygui.buttonbox(questions[4], choices = ["Yes", "No"], title ='Korean test #5 - 예')
 Answer5 = "Yes"
 if Q5 == Answer5:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -83,7 +83,7 @@ if Q5 == Answer5:
 else:
   easygui.msgbox("Wrong!, The answer was 'Yes', Because if you say 'Ye' it sounds like 'Yeah'But needs to have a 's' at the end. Score 0, Let's carry on then.")
 #Q6 Korean
-Q6 = easygui.buttonbox(("Is 'No' the simular sound to 'Aniyo'?"), choices = ["Yes", "No"], title ='Korean test #6 - 아니요')
+Q6 = easygui.buttonbox(questions[5], choices = ["Yes", "No"], title ='Korean test #6 - 아니요')
 Answer6 = "Yes"
 if Q6 == Answer6:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -91,7 +91,7 @@ if Q6 == Answer6:
 else:
   easygui.msgbox("Wrong!, The answer was 'Yes', Because if you say 'Aniyo' it sounds like 'Ah no'. Score 0, Let's carry on then.")
 #Q7
-Q7 = easygui.buttonbox(("Is 'Good night' the simular sound to 'Annyeonghi jumuseyo'?"), choices = ["Yes", "No"], title ='Korean test #7 - 안녕히 주무세요')
+Q7 = easygui.buttonbox(questions[6], choices = ["Yes", "No"], title ='Korean test #7 - 안녕히 주무세요')
 Answer7 = "No"
 if Q7 == Answer7:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -99,7 +99,7 @@ if Q7 == Answer7:
 else:
   easygui.msgbox("Wrong!, The answer was 'No', Because if you say 'Annyeonghi jumuseyo' it sounds like 'Any young hi'. Score 0, Let's carry on then.")
 #Q8
-Q8 = easygui.buttonbox(("Is 'Good' the simular sound to 'Joh-eun'?"), choices = ["Yes", "No"], title ='Korean test #8 - 좋은')
+Q8 = easygui.buttonbox(questions[7], choices = ["Yes", "No"], title ='Korean test #8 - 좋은')
 Answer8 = "No"
 if Q8 == Answer8:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -107,7 +107,7 @@ if Q8 == Answer8:
 else:
   easygui.msgbox("Wrong!, The answer was 'No', Because if you say 'Joh-eun' it sounds like 'Joe eun'. Score 0, Let's carry on then.")
 #Q9
-Q9 = easygui.buttonbox(("Is 'I'm not' the simular sound to 'Naneun anida'?"), choices = ["Yes", "No"], title ='Korean test #9 - 나는 아니다')
+Q9 = easygui.buttonbox(questions[8], choices = ["Yes", "No"], title ='Korean test #9 - 나는 아니다')
 Answer9 = "Yes"
 if Q9 == Answer9:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -115,7 +115,7 @@ if Q9 == Answer9:
 else:
   easygui.msgbox("Wrong!, The answer was 'Yes', Because if you say 'Naneun anida' it sounds like 'No I'm not'. Score 0, Let's carry on then.")
 #Q10
-Q10 = easygui.buttonbox(("Is 'Student' the simular sound to 'Haksaeng'?"), choices = ["Yes", "No"], title ='Korean test #10 - 학생')
+Q10 = easygui.buttonbox(questions[9], choices = ["Yes", "No"], title ='Korean test #10 - 학생')
 Answer10 = "No"
 if Q10 == Answer10:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -123,7 +123,7 @@ if Q10 == Answer10:
 else:
   easygui.msgbox("Wrong!, The answer was 'No', Because if you say 'Haksaeng' it sounds like 'Hac saying'. Score 0, Let's carry on then.")
 #Q11
-Q11 = easygui.buttonbox(("Is 'Rain' the simular sound to 'Bi'?"), choices = ["Yes", "No"], title ='Korean test #11 - 비')
+Q11 = easygui.buttonbox(questions[10], choices = ["Yes", "No"], title ='Korean test #11 - 비')
 Answer11 = "No"
 if Q11 == Answer11:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -131,7 +131,7 @@ if Q11 == Answer11:
 else:
   easygui.msgbox("Wrong!, The answer was 'No', Because if you say 'Bi' it sounds like 'Bee'. Score 0, Let's carry on then.")
 #Q12
-Q12 = easygui.buttonbox(("Is 'See ya' the simular sound to 'Da-eum-e bwayo'?"), choices = ["Yes", "No"], title ='Korean test #12 - 다음에 봐요')
+Q12 = easygui.buttonbox(questions[11], choices = ["Yes", "No"], title ='Korean test #12 - 다음에 봐요')
 Answer12 = "No"
 if Q11 == Answer12:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -139,7 +139,7 @@ if Q11 == Answer12:
 else:
   easygui.msgbox("Wrong!, The answer was 'No', Because if you say 'Da-eum-e bwayo' it sounds like 'Daeume by a you'. Score 0, Let's carry on then.")
 #Q13
-Q13 = easygui.buttonbox(("Is 'I'll be back' the simular sound to 'Naneun dol-aol geos-ida'?"), choices = ["Yes", "No"], title ='Korean test #13 - 나는 돌아올 것이다')
+Q13 = easygui.buttonbox(questions[12], choices = ["Yes", "No"], title ='Korean test #13 - 나는 돌아올 것이다')
 Answer13 = "No"
 if Q13 == Answer13:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -147,7 +147,7 @@ if Q13 == Answer13:
 else:
   easygui.msgbox("Wrong!, The answer was 'No', Because if you say 'Naneun dol-aol geos-ida' it sounds like 'Nane own dolaol goesida'. Score 0, Let's carry on then.")
 #Q14
-Q14 = easygui.buttonbox(("Is 'Race you down' the simular sound to 'Neoleul gyeongjaengsikida'?"), choices = ["Yes", "No"], title ='Korean test #14 - 너를 경쟁시키다')
+Q14 = easygui.buttonbox(questions[13], choices = ["Yes", "No"], title ='Korean test #14 - 너를 경쟁시키다')
 Answer14 = "No"
 if Q14 == Answer14:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -155,7 +155,7 @@ if Q14 == Answer14:
 else:
   easygui.msgbox("Wrong!, The answer was 'No', Because if you say 'Neoleul gyeongjaengsikida' it sounds like 'Noel gyoung jaeng skitda'. Score 0, Let's carry on then.")
 #Q15
-Q15 = easygui.buttonbox(("Is 'Friend' the simular sound to 'Chingu'?"), choices = ["Yes", "No"], title ='Korean test #15 - 친구')
+Q15 = easygui.buttonbox(questions[14], choices = ["Yes", "No"], title ='Korean test #15 - 친구')
 Answer15 = "No"
 if Q15 == Answer15:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -163,7 +163,7 @@ if Q15 == Answer15:
 else:
   easygui.msgbox("Wrong!, The answer was 'No', Because if you say 'Chingu' it sounds like 'Ching go'. Score 0, Let's carry on then.")
 #Q16
-Q16 = easygui.buttonbox(("Is 'Stop' the simular sound to 'Meomchuda'?"), choices = ["Yes", "No"], title ='Korean test #16 - 친구')
+Q16 = easygui.buttonbox(questions[15], choices = ["Yes", "No"], title ='Korean test #16 - 친구')
 Answer16 = "Yes"
 if Q16 == Answer16:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -171,7 +171,7 @@ if Q16 == Answer16:
 else:
   easygui.msgbox("Wrong!, The answer was 'Yes', Because if you say 'Meomchuda' it sounds like 'Could you stop'. Score 0, Let's carry on then.")
 #Q17
-Q17 = easygui.buttonbox(("Is 'Down there' the simular sound to 'Jeogi alae'?"), choices = ["Yes", "No"], title ='Korean test #17 - 저기 아래')
+Q17 = easygui.buttonbox(questions[16], choices = ["Yes", "No"], title ='Korean test #17 - 저기 아래')
 Answer17 = "Yes"
 if Q17 == Answer17:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -179,7 +179,7 @@ if Q17 == Answer17:
 else:
   easygui.msgbox("Wrong!, The answer was 'Yes', Because if you say 'Jeogi alae' it sounds like 'Down there'. Score 0, Let's carry on then.")
 #Q18
-Q18 = easygui.buttonbox(("Is 'Up there' the simular sound to 'Jeogi wie'?"), choices = ["Yes", "No"], title ='Korean test #18 - 저기 위에')
+Q18 = easygui.buttonbox(questions[17], choices = ["Yes", "No"], title ='Korean test #18 - 저기 위에')
 Answer18 = "Yes"
 if Q18 == Answer18:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -187,7 +187,7 @@ if Q18 == Answer18:
 else:
   easygui.msgbox("Wrong!, The answer was 'Yes', Because if you say 'Jeogi wie' it sounds like 'Up there'. Score 0, Let's carry on then.")
 #Q19
-Q19 = easygui.buttonbox(("Is 'Right there' the simular sound to 'Balo geogi'?"), choices = ["Yes", "No"], title ='Korean test #19 - 바로 거기')
+Q19 = easygui.buttonbox(questions[18], choices = ["Yes", "No"], title ='Korean test #19 - 바로 거기')
 Answer19 = "Yes"
 if Q19 == Answer19:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -195,7 +195,7 @@ if Q19 == Answer19:
 else:
   easygui.msgbox("Wrong!, The answer was 'Yes', Because if you say 'Balo geogi' it sounds like 'Right there'. Score 0, Let's carry on then.")
 #Q20
-Q20 = easygui.buttonbox(("Is 'High school'the simular sound to 'Godeunghaggyo'?"), choices = ["Yes", "No"], title ='Korean test #20 - 고등학교')
+Q20 = easygui.buttonbox(questions[19], choices = ["Yes", "No"], title ='Korean test #20 - 고등학교')
 Answer20 = "Yes"
 if Q20 == Answer20:
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -203,7 +203,7 @@ if Q20 == Answer20:
 else:
   easygui.msgbox("Wrong!, The answer was 'Yes', Because if you say 'Godeunghaggyo' it sounds like 'High school'. Score 0, Let's carry on then.")
 #Q21
-Q21 = easygui.buttonbox(("Is 'It's hot' the simular sound to 'Deowoyo'?"), choices = ["Yes", "No"], title ='Korean test #21 - 더워요')
+Q21 = easygui.buttonbox(questions[20], choices = ["Yes", "No"], title ='Korean test #21 - 더워요')
 Answer21 = "No"
 if Q21 == Answer21: 
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -211,7 +211,7 @@ if Q21 == Answer21:
 else:
   easygui.msgbox("Wrong!, The answer was 'No' Because if you say 'Deowoyo' it sounds like 'Do you'. Score 0, Let's carry on then.")
 #Q22
-Q22 = easygui.buttonbox(("Is 'It's cold' the simular sound to 'Chuwoyo'?"), choices = ["Yes", "No"], title ='Korean test #22 - 추워요') 
+Q22 = easygui.buttonbox(questions[21], choices = ["Yes", "No"], title ='Korean test #22 - 추워요') 
 Answer22 = "No"
 if Q22 == Answer22: 
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -219,7 +219,7 @@ if Q22 == Answer22:
 else:
   easygui.msgbox("Wrong!, The answer was 'No' Because if you say 'Chuwoyo' it sounds like 'Chew you'. Score 0, Let's carry on then.")   
 #Q23
-Q23 = easygui.buttonbox(("Is 'Run' the simular sound to 'Dallida'?"), choices = ["Yes", "No"], title ='Korean test #23 - 달리다')
+Q23 = easygui.buttonbox(questions[22], choices = ["Yes", "No"], title ='Korean test #23 - 달리다')
 Answer23 = "Yes"
 if Q23 == Answer23: 
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -227,7 +227,7 @@ if Q23 == Answer23:
 else:
   easygui.msgbox("Wrong!, The answer was 'Yes' Because if you say 'Dallida' it sounds like 'Now run'. Score 0, Let's carry on then.")
 #Q24
-Q24 = easygui.buttonbox(("Is 'Stay away' the simular sound to 'Tteol-eojyeoiss-eo'?"), choices = ["Yes", "No"], title ='Korean test #24 - 떨어져있어')
+Q24 = easygui.buttonbox(questions[23], choices = ["Yes", "No"], title ='Korean test #24 - 떨어져있어')
 Answer24 = "Yes"
 if Q24 == Answer24: 
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -235,7 +235,7 @@ if Q24 == Answer24:
 else:
   easygui.msgbox("Wrong!, The answer was 'Yes' Because if you say 'Tteol-eojyeoiss-eo' it sounds like 'Tell you stay away'.Score 0, Let's carry on then.")
 #Q25
-Q25 = easygui.buttonbox(("Is 'Please' the simular sound to 'Jebal'?"), choices = ["Yes", "No"], title ='Korean test #25 - 제발')
+Q25 = easygui.buttonbox(questions[24], choices = ["Yes", "No"], title ='Korean test #25 - 제발')
 Answer25 = "Yes"
 if Q25 == Answer25: 
   easygui.msgbox("Correct and Welldone. You got the first Word out of 25") 
@@ -256,7 +256,7 @@ easygui.msgbox("1")
 print("Start")
 score = 0
 #Q1
-Q1 = easygui.buttonbox(("Try guess what the number '1', that's in Korean native numbers?"), choices = ["여섯 - Yeoseot","둘 - Dul","하나 - Hana","셋 - Set"], title ="Korean native number '1'")
+Q1 = easygui.buttonbox(questions[25], choices = ["여섯 - Yeoseot","둘 - Dul","하나 - Hana","셋 - Set"], title ="Korean native number '1'")
 answer1 = "하나 - Hana"
 if Q1 == answer1:
   easygui.msgbox("Correct, Welldone you got the right answer for native number '1'")
@@ -264,7 +264,7 @@ if Q1 == answer1:
 else: 
   easygui.msgbox("Wrong!, Answer was '하나 - Hana'?")
 #Q2
-Q2 = easygui.buttonbox(("Try guess what the number '2', that's in Korean native numbers?"), choices = ["다섯 - Daseout","하나 - Hana","셋 - Set", "둘 - Dul"], title ="Korean native number '2'")
+Q2 = easygui.buttonbox(questions[26], choices = ["다섯 - Daseout","하나 - Hana","셋 - Set", "둘 - Dul"], title ="Korean native number '2'")
 answer2 = "둘 - Dul"
 if Q2 == answer2:
   easygui.msgbox("Correct, Welldone you got the right answer for native number '2'")
@@ -272,7 +272,7 @@ if Q2 == answer2:
 else: 
   easygui.msgbox("Wrong!, Answer was '둘 - Dul'?")
 #Q3
-Q3 = easygui.buttonbox(("Try guess what the number '3', that's in Korean native numbers?"), choices = ["둘 - Dul","셋 - Set","열 - Yeol","여덟 - Yeodeol"], title ="Korean native number '3'")
+Q3 = easygui.buttonbox(questions[27], choices = ["둘 - Dul","셋 - Set","열 - Yeol","여덟 - Yeodeol"], title ="Korean native number '3'")
 answer3 = "셋 - Set"
 if Q3 == answer3:
   easygui.msgbox("Correct, Welldone you got the right answer for native number '3'")
@@ -280,7 +280,7 @@ if Q3 == answer3:
 else: 
   easygui.msgbox("Wrong!, Answer was '셋 - Set'?")
 #Q4
-Q4 = easygui.buttonbox(("Try guess what the number '4', that's in Korean native numbers?"), choices = ["일곱 - Ilgop","넷 - Net","둘 - Dul", "아홉 - Ahop"], title ="Korean native number '4'")
+Q4 = easygui.buttonbox(questions[28], choices = ["일곱 - Ilgop","넷 - Net","둘 - Dul", "아홉 - Ahop"], title ="Korean native number '4'")
 answer4 = "넷 - Net"
 if Q4 == answer4:
   easygui.msgbox("Correct, Welldone you got the right answer for native number '4'")
@@ -288,7 +288,7 @@ if Q4 == answer4:
 else: 
   easygui.msgbox("Wrong!, Answer was '넷 - Net'?")
 #Q5
-Q5 = easygui.buttonbox(("Try guess what the number '5', that's in Korean native numbers?"), choices = ["다섯 - Daseout","일곱 - Ilgop","둘 - Dul","열 - Yeol"], title ="Korean native number '5'")
+Q5 = easygui.buttonbox(questions[29], choices = ["다섯 - Daseout","일곱 - Ilgop","둘 - Dul","열 - Yeol"], title ="Korean native number '5'")
 answer5 = "다섯 - Daseout"
 if Q5 == answer5:
   easygui.msgbox("Correct, Welldone you got the right answer for native number '5'")
@@ -296,7 +296,7 @@ if Q5 == answer5:
 else: 
   easygui.msgbox("Wrong!, Answer was '다섯 - Daseout'?")
 #Q6
-Q6 = easygui.buttonbox(("Try guess what the number '6', that's in Korean native numbers?"), choices = ["다섯 - Daseout","일곱 - Ilgop","둘 - Dul","여섯 - Yeoseot"], title ="Korean native number '6'")
+Q6 = easygui.buttonbox(questions[30], choices = ["다섯 - Daseout","일곱 - Ilgop","둘 - Dul","여섯 - Yeoseot"], title ="Korean native number '6'")
 answer6 = "여섯 - Yeoseot"
 if Q6 == answer6:
   easygui.msgbox("Correct, Welldone you got the right answer for native number '6'")
@@ -304,7 +304,7 @@ if Q6 == answer6:
 else: 
   easygui.msgbox("Wrong!, Answer was '여섯 - Yeoseot'?")
 #Q7
-Q7 = easygui.buttonbox(("Try guess what the number '7', that's in Korean native numbers?"), choices = ["일곱 - Ilgop","일곱 - Ilgop","둘 - Dul","열 - Yeol"], title ="Korean native number '7'")
+Q7 = easygui.buttonbox(questions[31], choices = ["일곱 - Ilgop","일곱 - Ilgop","둘 - Dul","열 - Yeol"], title ="Korean native number '7'")
 answer7 = "일곱 - Ilgop"
 if Q7 == answer7:
   easygui.msgbox("Correct, Welldone you got the right answer for native number '7'")
@@ -312,7 +312,7 @@ if Q7 == answer7:
 else: 
   easygui.msgbox("Wrong!, Answer was '일곱 - Ilgop'?")
 #Q8
-Q8 = easygui.buttonbox(("Try guess what the number '8', that's in Korean native numbers?"), choices = ["셋 - Set","둘 - Dul","여덟 - Yeodeol","열 - Yeol"], title ="Korean native number '8'")
+Q8 = easygui.buttonbox(questions[32], choices = ["셋 - Set","둘 - Dul","여덟 - Yeodeol","열 - Yeol"], title ="Korean native number '8'")
 answer8 = "여덟 - Yeodeol"
 if Q8 == answer8:
   easygui.msgbox("Correct, Welldone you got the right answer for native number '8'")
@@ -320,7 +320,7 @@ if Q8 == answer8:
 else: 
   easygui.msgbox("Wrong!, Answer was '여덟 - Yeodeol'?")
 #Q9
-Q9 = easygui.buttonbox(("Try guess what the number '9', that's in Korean native numbers?"), choices = ["다섯 - Daseout","일곱 - Ilgop","아홉 - Ahop","여섯 - Yeoseot"], title ="Korean native number '9'")
+Q9 = easygui.buttonbox(questions[33], choices = ["다섯 - Daseout","일곱 - Ilgop","아홉 - Ahop","여섯 - Yeoseot"], title ="Korean native number '9'")
 answer9 = "아홉 - Ahop"
 if Q9 == answer9:
   easygui.msgbox("Correct, Welldone you got the right answer for native number '9'")
@@ -328,7 +328,7 @@ if Q9 == answer9:
 else: 
   easygui.msgbox("Wrong!, Answer was '아홉 - Ahop'?")
 #Q10
-Q10 = easygui.buttonbox(("Try guess what the number '10', that's in Korean native numbers?"), choices = ["다섯 - Daseout","일곱 - Ilgop","둘 - Dul","열 - Yeol"], title ="Korean native number '10'")
+Q10 = easygui.buttonbox(questions[34], choices = ["다섯 - Daseout","일곱 - Ilgop","둘 - Dul","열 - Yeol"], title ="Korean native number '10'")
 answer10 = "열 - Yeol"
 if Q10 == answer10:
   easygui.msgbox("Correct, Welldone you got the right answer for native number '10'")
@@ -347,7 +347,7 @@ easygui.msgbox("2")
 easygui.msgbox("1")
 print("Start")
 #Q1
-Q1 = easygui.buttonbox(("Try guess what the number '1', that's in Korean Sino numbers?"), choices = ["일 - Il","구 - Gu","오 - O","십 - Sip"], title ="Korean Sino number '1'")
+Q1 = easygui.buttonbox(questions[35], choices = ["일 - Il","구 - Gu","오 - O","십 - Sip"], title ="Korean Sino number '1'")
 ANSWER1 = "일 - Il"
 if Q1 == ANSWER1:
   easygui.msgbox("Correct, Welldone you got the right answer for Sino number '1'")
@@ -355,7 +355,7 @@ if Q1 == ANSWER1:
 else: 
   easygui.msgbox("Wrong!, Answer was '일 - Il'?")
 #Q2
-Q2 = easygui.buttonbox(("Try guess what the number '2', that's in Korean Sino numbers?"), choices = ["구 - Gu","이 - I", "오 - O","팔 - Pal"], title ="Korean Sino number '2'")
+Q2 = easygui.buttonbox(questions[36], choices = ["구 - Gu","이 - I", "오 - O","팔 - Pal"], title ="Korean Sino number '2'")
 ANSWER2 = "이 - I"
 if Q2 == ANSWER2:
   easygui.msgbox("Correct, Welldone you got the right answer for Sino number '2'")
@@ -363,7 +363,7 @@ if Q2 == ANSWER2:
 else: 
   easygui.msgbox("Wrong!, Answer was '이 - I'?")
 #Q3
-Q3 = easygui.buttonbox(("Try guess what the number '3', that's in Korean Sino numbers?"), choices = ["육 - Yuk","사 - Sa","일 - Il","삼 - Sam"], title ="Korean Sino number '3'")
+Q3 = easygui.buttonbox(questions[37], choices = ["육 - Yuk","사 - Sa","일 - Il","삼 - Sam"], title ="Korean Sino number '3'")
 ANSWER3 = "삼 - Sam"
 if Q3 == ANSWER3:
   easygui.msgbox("Correct, Welldone you got the right answer for Sino number '3'")
@@ -371,7 +371,7 @@ if Q3 == ANSWER3:
 else: 
   easygui.msgbox("Wrong!, Answer was '삼 - Sam'?")
 #Q4
-Q4 = easygui.buttonbox(("Try guess what the number '4', that's in Korean Sino numbers?"), choices = ["육 - Yuk","사 - Sa","일 - Il","삼 - Sam"], title ="Korean Sino number '4'")
+Q4 = easygui.buttonbox(questions[38], choices = ["육 - Yuk","사 - Sa","일 - Il","삼 - Sam"], title ="Korean Sino number '4'")
 ANSWER4 = "사 - Sa"
 if Q4 == ANSWER4:
   easygui.msgbox("Correct, Welldone you got the right answer for Sino number '4'")
@@ -379,7 +379,7 @@ if Q4 == ANSWER4:
 else: 
   easygui.msgbox("Wrong!, Answer was '사 - Sa'?")
 #Q5
-Q5 = easygui.buttonbox(("Try guess what the number '5', that's in Korean Sino numbers?"), choices = ["팔 - Pal","사 - Sa","일 - Il","오 - O"], title ="Korean Sino number '5'")
+Q5 = easygui.buttonbox(questions[39], choices = ["팔 - Pal","사 - Sa","일 - Il","오 - O"], title ="Korean Sino number '5'")
 ANSWER5 = "오 - O"
 if Q5 == ANSWER5:
   easygui.msgbox("Correct, Welldone you got the right answer for Sino number '5'")
@@ -387,7 +387,7 @@ if Q5 == ANSWER5:
 else: 
   easygui.msgbox("Wrong!, Answer was '오 - O'?")
 #Q6
-Q6 = easygui.buttonbox(("Try guess what the number '6', that's in Korean Sino numbers?"), choices = ["육 - Yuk","사 - Sa","일 - Il","삼 - Sam"], title ="Korean Sino number '6'")
+Q6 = easygui.buttonbox(questions[40], choices = ["육 - Yuk","사 - Sa","일 - Il","삼 - Sam"], title ="Korean Sino number '6'")
 ANSWER6 = "육 - Yuk"
 if Q6 == ANSWER6:
   easygui.msgbox("Correct, Welldone you got the right answer for Sino number '6'")
@@ -395,7 +395,7 @@ if Q6 == ANSWER6:
 else: 
   easygui.msgbox("Wrong!, Answer was '육 - Yuk'?")
 #Q7
-Q7 = easygui.buttonbox(("Try guess what the number '7', that's in Korean Sino numbers?"), choices = ["육 - Yuk","사 - Sa","칠 - Chil","일 - Il"], title ="Korean Sino number '7'")
+Q7 = easygui.buttonbox(questions[41], choices = ["육 - Yuk","사 - Sa","칠 - Chil","일 - Il"], title ="Korean Sino number '7'")
 ANSWER7 = "칠 - Chil"
 if Q7 == ANSWER7:
   easygui.msgbox("Correct, Welldone you got the right answer for Sino number '7'")
@@ -403,7 +403,7 @@ if Q7 == ANSWER7:
 else: 
   easygui.msgbox("Wrong!, Answer was '칠 - Chil'?")
 #Q8
-Q8 = easygui.buttonbox(("Try guess what the number '8', that's in Korean Sino numbers?"), choices = ["팔 - Pal","사 - Sa","십 - Sip","삼 - Sam"], title ="Korean Sino number '8'")
+Q8 = easygui.buttonbox(questions[42], choices = ["팔 - Pal","사 - Sa","십 - Sip","삼 - Sam"], title ="Korean Sino number '8'")
 ANSWER8 = "팔 - Pal"
 if Q8 == ANSWER8:
   easygui.msgbox("Correct, Welldone you got the right answer for Sino number '8'")
@@ -411,7 +411,7 @@ if Q8 == ANSWER8:
 else: 
   easygui.msgbox("Wrong!, Answer was '팔 - Pal'?")
 #Q9
-Q9 = easygui.buttonbox(("Try guess what the number '9', that's in Korean Sino numbers?"), choices = ["육 - Yuk","사 - Sa","일 - Il","구 - Gu"], title ="Korean Sino number '9'")
+Q9 = easygui.buttonbox(questions[43], choices = ["육 - Yuk","사 - Sa","일 - Il","구 - Gu"], title ="Korean Sino number '9'")
 ANSWER9 = "삼 - 구 - Gu"
 if Q9 == ANSWER9:
   easygui.msgbox("Correct, Welldone you got the right answer for Sino number '9'")
@@ -419,7 +419,7 @@ if Q9 == ANSWER9:
 else: 
   easygui.msgbox("Wrong!, Answer was '구 - Gu'?")
 #Q10
-Q10 = easygui.buttonbox(("Try guess what the number '10', that's in Korean Sino numbers?"), choices = ["육 - Yuk","십 - Sip","일 - Il","삼 - Sam"], title ="Korean Sino number '10'")
+Q10 = easygui.buttonbox(questions[44], choices = ["육 - Yuk","십 - Sip","일 - Il","삼 - Sam"], title ="Korean Sino number '10'")
 ANSWER10 = "십 - Sip"
 if Q10 == ANSWER10:
   easygui.msgbox("Correct, Welldone you got the right answer for Sino number '10'")
